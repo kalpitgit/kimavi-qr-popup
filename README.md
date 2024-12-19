@@ -31,7 +31,7 @@ This component allows you to display a QR code in a popup on your webpage. The p
 ## Installation
 
 ```bash
-npm install kimavi-qr-code-popup
+npm install my-qr-popup
 ```
 
 ## Usage
@@ -49,7 +49,7 @@ Import the component and provide the required props. These props correspond to t
 
 ```jsx
 import React from "react";
-import { QRCodePopUp } from "kimavi-qr-code-popup";
+import { QRCodePopUp } from "my-qr-popup";
 
 function App() {
   return (
