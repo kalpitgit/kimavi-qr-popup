@@ -1,6 +1,6 @@
 {
   "name": "my-qr-popup",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A React component that shows a QR code popup.",
   "main": "src/index.js",
   "scripts": {

@@ -28,6 +28,15 @@ This component allows you to display a QR code in a popup on your webpage. The p
 - **Configurable position, timer, and marketing message:** Control where and when the popup appears.
 - **Runs fully within React:** Ideal for React or Next.js applications, no DOM manipulation needed outside of React.
 
+## Position Options are
+
+- bottom-right
+- bottom-left
+- middle-bottom-right
+- top-right
+- top-left
+- middle-top-right
+
 ## Installation
 
 ```bash
