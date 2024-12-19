@@ -1,12 +1,19 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
-function showQRCodePopup({ qrid, uid, img, message = "Scan this QR code", timer = 20, position = "bottom-right" }) {
+function showQRCodePopup({
+  qrid,
+  uid,
+  img,
+  message = "Scan this QR code",
+  timer = 20,
+  position = "bottom-right",
+}) {
   if (!qrid || !uid || !img) return;
 
   const popup = document.createElement("div");
   popup.style.position = "fixed";
-  popup.style.width = "250px";
-  popup.style.height = "250px";
+  popup.style.width = "200px";
+  popup.style.height = "280px";
   popup.style.backgroundColor = "#fff";
   popup.style.border = "1px solid #ccc";
   popup.style.borderRadius = "8px";
@@ -115,7 +122,14 @@ function showQRCodePopup({ qrid, uid, img, message = "Scan this QR code", timer 
 
 export const QRCodePopUp = ({ qrid, uid, img, message, timer, position }) => {
   useEffect(() => {
-    const cleanup = showQRCodePopup({ qrid, uid, img, message, timer, position });
+    const cleanup = showQRCodePopup({
+      qrid,
+      uid,
+      img,
+      message,
+      timer,
+      position,
+    });
     return cleanup;
   }, [qrid, uid, img, message, timer, position]);
 
