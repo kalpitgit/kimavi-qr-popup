@@ -12,7 +12,7 @@ function showQRCodePopup({
 
   const popup = document.createElement("div");
   popup.style.position = "fixed";
-  popup.style.width = "200px";
+  popup.style.width = "220px";
   popup.style.height = "280px";
   popup.style.backgroundColor = "#fff";
   popup.style.border = "1px solid #ccc";
