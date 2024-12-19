@@ -27,3 +27,5 @@ Thumbs.db
 # Ignore IDE/Editor directories and files
 .vscode/
 .idea/
+.prettierrc
+.babelrc
