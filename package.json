@@ -1,0 +1,28 @@
+{
+  "name": "my-qr-popup",
+  "version": "1.0.0",
+  "description": "A React component that shows a QR code popup.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "qr",
+    "popup",
+    "react",
+    "qr-code"
+  ],
+  "author": "Kimavi.com",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3"
+  }
+}
